@@ -1,0 +1,182 @@
+.LogoContainer {
+	font-family: Georgia, serif;
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #1497ff;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: italic;
+	font-variant: normal;
+	text-transform: none;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.LogoContainer > h1 {
+	font-weight: 400;
+	line-height: 3rem;
+	letter-spacing: 0.02rem;
+}
+
+.main {
+	padding: 1vh 1vw;
+	display: flex;
+	flex-direction: column;
+	row-gap: 2vh;
+	max-width: 100vw;
+	overflow: hidden;
+}
+
+.Label {
+	font-size: 1rem;
+	min-width: 15rem;
+}
+
+.Row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 0.5rem;
+	justify-content: space-between;
+}
+
+.InternalRow {
+	display: flex;
+	align-items: center;
+}
+
+.Options {
+	padding: 1vh 1vw;
+	border: 1px solid #ccc;
+	outline: none;
+	font-size: 1rem;
+	min-width: 10rem;
+}
+
+.IconButton {
+	display: flex;
+	align-items: center;
+	border: none;
+	outline: none;
+	background-color: #1497ff;
+	padding: 1vh 2vw;
+	color: #fff;
+	border-radius: 0.2rem;
+	min-width: 15rem;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.GridElement {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 1.5vh;
+}
+
+.Card {
+	padding: 1vh 1vw;
+	border-radius: 0.3rem;
+	border: 1px solid #ccc;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 0.6rem;
+}
+
+.PDFIcon {
+	font-size: 15rem;
+	color: brown;
+}
+
+.Button {
+	border: none;
+	outline: none;
+	background-color: #1497ff;
+	padding: 1vh 2vw;
+	color: #fff;
+	border-radius: 0.2rem;
+	justify-content: center;
+}
+
+.MaterialSection {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1.2vh;
+}
+
+.Modal {
+	max-height: 100vh;
+	max-width: 100vw;
+	height: 100dvh;
+	width: 100dvw;
+	background: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 480px) {
+	.GridElement {
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 1vh;
+	}
+	.InternalRow {
+		flex-direction: column;
+		row-gap: 1vh;
+		justify-content: center;
+	}
+	.Row {
+		flex-direction: column;
+		row-gap: 1vh;
+		justify-content: center;
+	}
+	.Label {
+		width: 100%;
+		text-align: center;
+	}
+	.LogoContainer {
+		flex-direction: column;
+	}
+	.ProfileGreeting,
+	.ProfileGreetingSmall {
+		font-size: 0.65rem;
+	}
+}
+
+.UserProfile {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 1vw;
+}
+
+.ProfileGreeting,
+.ProfileGreetingSmall {
+	font-weight: 400;
+	color: black;
+	font-size: 1rem;
+	font-style: normal;
+}
+
+.ProfileGreetingSmall {
+	font-size: 0.6rem;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.AvatarImage {
+	height: 35px;
+	aspect-ratio: 1;
+	border-radius: 50%;
+}
+
+.SmallButton {
+	width: fit-content;
+}
+
+.InfoText {
+	font-size: 0.8rem;
+	color: limegreen;
+}

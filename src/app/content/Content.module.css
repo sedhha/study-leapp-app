@@ -1,0 +1,100 @@
+/* classes.module.css */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.question {
+	margin-bottom: 20px;
+}
+
+.h1 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.ul {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.li {
+	margin-bottom: 5px;
+}
+
+.p {
+	margin-bottom: 10px;
+}
+
+.interactions {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	color: #888;
+}
+
+.upvotes {
+	margin-right: 10px;
+}
+
+.comments {
+	margin-left: 10px;
+}
+
+.UpVoteContent {
+	display: flex;
+	align-items: center;
+	columns: 0.8vw;
+}
+
+.upvotesIcon {
+	font-size: 1.2rem;
+	cursor: pointer;
+	background-color: #1497ff;
+	color: white;
+
+	border-radius: 50%;
+}
+
+.upVotesIconActive {
+	color: #1497ff;
+	background-color: white;
+}
+
+.commentsSection {
+	margin-top: 20px;
+}
+
+.comment {
+	margin-bottom: 10px;
+}
+
+.commentBy {
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.commentContent {
+	margin-left: 10px;
+}
+
+.textarea {
+    padding: 1vh 1vw;
+    width: 100%;
+}
+.strong {
+    color: #149;
+}
+
+.answer {
+    color: limegreen;
+}

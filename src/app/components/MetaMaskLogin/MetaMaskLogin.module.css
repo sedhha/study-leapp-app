@@ -1,0 +1,31 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	height: 100dvh;
+	width: 100%;
+	row-gap: 1vh;
+	background-color: #f4f5f6;
+	flex-direction: column;
+}
+
+.ErrorText {
+	color: crimson;
+	padding: 1.2vh 1.5vw;
+	background-color: lightpink;
+}
+
+.SignInText {
+	color: limegreen;
+}
+
+.Input {
+	padding: 1vh 2vw;
+	min-width: 20vw;
+}
+
+.metamaskLogo {
+	height: 250px;
+	aspect-ratio: 1;
+}

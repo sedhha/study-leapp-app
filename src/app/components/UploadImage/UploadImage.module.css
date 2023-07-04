@@ -1,0 +1,50 @@
+.Error {
+	background-color: lightpink;
+	color: crimson;
+	padding: 1vh 1vw;
+}
+
+.ErrorIcon {
+	color: crimson;
+	cursor: pointer;
+}
+
+.FileInputContainer {
+	display: inline-block;
+	position: relative;
+}
+
+.CustomFileInput {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.IconButton {
+	display: flex;
+	align-items: center;
+	border: none;
+	outline: none;
+	background-color: #1497ff;
+	padding: 1vh 2vw;
+	color: #fff;
+	border-radius: 0.2rem;
+	min-width: 15rem;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.Success {
+	color: limegreen;
+	font-size: 1.2rem;
+}
+
+.Row {
+	display: flex;
+	align-items: center;
+	column-gap: 1vw;
+}

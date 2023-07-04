@@ -1,0 +1,11 @@
+{
+	"tables": {
+		"CACHE": {
+			"tableName": "cache",
+			"columnNames": {
+				"KEY": "key",
+				"VALUE": "value"
+			}
+		}
+	}
+}

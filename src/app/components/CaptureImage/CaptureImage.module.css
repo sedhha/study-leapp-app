@@ -1,0 +1,118 @@
+.ModalContainer {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ImageContainer {
+	max-width: 720px;
+	max-height: 80%;
+	display: block;
+	padding: 1vh 1vw;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: 2vh 1vw 4vh;
+	text-align: center;
+}
+.ImageContainer > :not(:first-child) {
+	margin-top: 1.5vh;
+}
+
+.PermissionText {
+	font-size: 0.8rem;
+	font-weight: 300;
+	line-height: 1rem;
+	letter-spacing: 0.01rem;
+	max-width: 90%;
+	margin: 0.5rem auto;
+}
+
+.AllowButton {
+	color: #1497ff;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.CameraCanvas {
+	max-width: 100%;
+	min-height: 65vh;
+	border: 1px solid #ccc;
+	margin: 0.5rem auto 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.CameraPermission > :not(:first-child) {
+	margin-top: 1.2vh;
+}
+
+.CameraPermission {
+	text-align: center;
+}
+
+.CheckIcon,
+.CloseIcon,
+.Shutter {
+	font-size: 2rem;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.CheckIcon {
+	color: limegreen;
+}
+.CloseIcon {
+	color: red;
+}
+.Shutter {
+	color: gray;
+}
+
+.VideoContainer {
+	margin: auto;
+	height: 65vh;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.CapturedImage {
+	height: auto;
+	width: 100%;
+	max-height: 70%;
+}
+
+.Row {
+	display: flex;
+	align-items: center;
+	column-gap: 1.5vw;
+	width: 100%;
+	justify-content: center;
+}
+
+.ButtonsCol {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+	align-items: center;
+}
+
+.SizedButton {
+	width: fit-content;
+}
+
+.Error {
+	color: red;
+	background-color: lightpink;
+	padding: 1vh 1vw;
+}
+@media screen and (max-width: 480px) {
+	.CapturedImage {
+		width: 100%;
+		aspect-ratio: 9 / 16;
+		max-height: 60vh;
+	}
+}
